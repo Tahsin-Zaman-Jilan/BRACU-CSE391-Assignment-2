@@ -1,0 +1,179 @@
+* {
+    font-family: serif;
+    font-weight: 400;
+    font-size: 1em;
+    background-image:"../milky-way-starry-sky-night-sky-star-956999.jpeg";
+}
+body {
+    background-image: url("../pexels-photo-925743.webp");
+    color: lightseagreen;
+ }
+
+body {
+    background-color: #f3f5f9;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 1.5em;
+    margin-top: 2rem;
+    text-align: center;
+    ;
+}
+
+.sub-title {
+    font-size: 1.2em;
+    margin-top: 1rem;
+    padding-top: 200px;
+    
+}
+
+.hero-converter,
+.quote-container {
+    max-width: 550px;
+    border: 1px solid grey;
+    padding: 1rem;
+    margin: 0 auto;
+    color: lightseagreen;
+    
+    /* display: flex; */
+    /* justify-content: space-between; */
+}
+
+.box {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px 10px 10px;
+    
+}
+
+.box-1,
+.box-2,
+.box-3,
+.box-4 {
+    width: 40px;
+    height: 40px;
+    border-radius: 15px;
+    
+}
+
+.box-1 {
+    background-color:blue;
+}
+
+.box-2 {
+    background-color: Red;
+}
+
+.box-3 {
+    background-color:green;
+}
+
+.box-4 {
+    background-color:yellow;
+}
+
+#result {
+    padding-left: 1rem;
+    
+}
+
+.part-3-container {
+    padding-top: 170px;
+    padding-bottom: 12rem;
+    
+}
+
+.magic-container {
+   
+    padding: 1rem;
+  
+    
+}
+
+h3 {
+    font-size: 1.5rem;
+    padding: 0 1rem;
+    
+}
+
+li {
+    list-style-type: none;
+    
+}
+
+#li-5 {
+    margin-top: 1rem;
+    
+}
+
+#li-7 {
+    margin-top: 2rem;
+    
+}
+
+.magic-body {
+    margin: 1rem;
+    background-color: white;
+    padding: 1rem;
+   
+}
+
+.btn-container {
+    background-color: green;
+    display: flex;
+    justify-content: space-around;
+
+    background-color: white; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  
+}
+
+.delete{
+    background-color: green;
+    color: white;
+}
+.button2 {background-color: #008CBA;} /* Blue */
+.button3 {background-color: #f44336;} /* Red */ 
+.button4 {background-color: #e7e7e7; color: black;} /* Gray */ 
+.button5 {background-color: #555555;} 
+@media (max-width:576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (max-width:768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width:992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width:1200px) {
+    .container {
+        max-width: 1180px;
+    }
+}
